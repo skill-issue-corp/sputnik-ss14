@@ -9,7 +9,7 @@ bwoink-system-introductory-message =
     О любых ошибках и других проблемах следует сообщать через Discord или Github.
     Злоупотребление этим чатом может привести к дисциплинарным наказаниям.
 bwoink-system-typing-indicator =
-    { $players } { $count ->
+    {$players} {$count ->
         [one] печатает
        *[other] печатают
     }...
@@ -22,6 +22,6 @@ bwoink-title-none-selected = Ничего не выбрано
 bwoink-system-rate-limited = Система: вы отправляете сообщения слишком быстро.
 bwoink-system-player-disconnecting = отключился.
 bwoink-system-player-reconnecting = переподключился.
-bwoink-system-player-banned = был забанен за: { $banReason }
+bwoink-system-player-banned = был забанен за: {$banReason}
 bwoink-message-admin-only = (Только Админ)
 bwoink-message-silent = (S)

@@ -1,1 +1,1 @@
-stealth-visual-effect = [color=lightslategray]{ CAPITALIZE($target) } переливается с загадочной прозрачностью.[/color]
+stealth-visual-effect = [color=lightslategray]{CAPITALIZE($target)} переливается с загадочной прозрачностью.[/color]

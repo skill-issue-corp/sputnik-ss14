@@ -1,8 +1,9 @@
-### Специальные сообщения, используемые внутренними средствами локализации.
+### Special messages used by internal localizer stuff.
 
-# Используется внутренне функцией PRESSURE().
+# Used internally by the PRESSURE() function.
 zzzz-fmt-pressure =
-    { TOSTRING($divided, "F1") } { $places ->
+    { TOSTRING($divided, "F1") } {
+$places ->
         [0] кПа
         [1] МПа
         [2] ГПа
@@ -10,9 +11,10 @@ zzzz-fmt-pressure =
         [4] ППа
        *[5] ???
     }
-# Используется внутренне функцией POWERWATTS().
+# Used internally by the POWERWATTS() function.
 zzzz-fmt-power-watts =
-    { TOSTRING($divided, "F1") } { $places ->
+    { TOSTRING($divided, "F1") } {
+$places ->
         [0] Вт
         [1] кВт
         [2] МВт
@@ -20,11 +22,12 @@ zzzz-fmt-power-watts =
         [4] ТВт
        *[5] ???
     }
-# Используется внутренне функцией POWERJOULES().
-# Напоминание: 1 джоуль = 1 ватт в течение 1 секунды (умножайте ватты на секунды, чтобы получить джоули).
-# Следовательно, 1 киловатт-час равен 3 600 000 джоулей (3,6 МДж)
+# Used internally by the POWERJOULES() function.
+# Reminder: 1 joule = 1 watt for 1 second (multiply watts by seconds to get joules).
+# Therefore 1 kilowatt-hour is equal to 3,600,000 joules (3.6MJ)
 zzzz-fmt-power-joules =
-    { TOSTRING($divided, "F1") } { $places ->
+    { TOSTRING($divided, "F1") } {
+$places ->
         [0] Дж
         [1] кДж
         [2] МДж
@@ -32,9 +35,10 @@ zzzz-fmt-power-joules =
         [4] ТДж
        *[5] ???
     }
-# Используется внутренне функцией ENERGYWATTHOURS().
+# Used internally by the ENERGYWATTHOURS() function.
 zzzz-fmt-energy-watt-hours =
-    { TOSTRING($divided, "F1") } { $places ->
+    { TOSTRING($divided, "F1") } {
+$places ->
         [0] Вт·ч
         [1] кВт·ч
         [2] МВт·ч
@@ -42,5 +46,5 @@ zzzz-fmt-energy-watt-hours =
         [4] ТВт·ч
        *[5] ???
     }
-# Используется внутренне функцией PLAYTIME().
-zzzz-fmt-playtime = { $hours }ч { $minutes }м
+# Used internally by the PLAYTIME() function.
+zzzz-fmt-playtime = {$hours}ч {$minutes}м

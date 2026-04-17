@@ -6,4 +6,4 @@ cmd-rmaction-actions-not-found = Сущность не может использ
 cmd-rmaction-not-an-action = Сущность не является действием.
 cmd-rmaction-player-completion = <EntityUid>
 cmd-rmaction-action-completion = <ActionUid>
-cmd-rmaction-action-info = { $action }
+cmd-rmaction-action-info = {$action}

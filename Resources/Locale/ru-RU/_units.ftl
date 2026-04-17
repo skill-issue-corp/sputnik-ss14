@@ -1,4 +1,4 @@
-## Стандартные приставки SI
+## Standard SI prefixes
 
 units-si--y = и
 units-si--z = з
@@ -8,7 +8,7 @@ units-si--p = п
 units-si--n = н
 units-si--u = мк
 units-si--m = м
-units-si = { "" }
+units-si = {""}
 units-si-k = к
 units-si-m = М
 units-si-g = Г
@@ -18,7 +18,7 @@ units-si-e = Э
 units-si-z = З
 units-si-y = И
 
-### Полная форма
+### Long form
 
 units-si--y-long = иокто
 units-si--z-long = зепто
@@ -38,7 +38,7 @@ units-si-e-long = экса
 units-si-z-long = зетта
 units-si-y-long = иотта
 
-## Паскали (Давление)
+## Pascals (Pressure)
 
 units-u--pascal = мкПа
 units-m--pascal = мПа
@@ -53,7 +53,7 @@ units-k-pascal-long = килопаскаль
 units-m-pascal-long = мегапаскаль
 units-g-pascal-long = гигапаскаль
 
-## Ватты (Мощность)
+## Watts (Power)
 
 units-u--watt = мкВт
 units-m--watt = мВт
@@ -68,7 +68,7 @@ units-k-watt-long = киловатт
 units-m-watt-long = мегаватт
 units-g-watt-long = гигаватт
 
-## Джоули (Энергия)
+## Joule (Energy)
 
 units-u--joule = мкДж
 units-m--joule = мДж
@@ -81,7 +81,7 @@ units-joule-long = джоуль
 units-k-joule-long = килоджоуль
 units-m-joule-long = мегаджоуль
 
-## Кельвины (Температура)
+## Kelvin (Temperature)
 
 units-u--kelvin = мкК
 units-m--kelvin = мК
