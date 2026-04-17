@@ -2,7 +2,7 @@
 
 # Used internally by the PRESSURE() function.
 zzzz-fmt-pressure =
-    { TOSTRING($divided, "F1") } {
+    {TOSTRING($divided, "F1")} {
 $places ->
         [0] кПа
         [1] МПа
@@ -13,7 +13,7 @@ $places ->
     }
 # Used internally by the POWERWATTS() function.
 zzzz-fmt-power-watts =
-    { TOSTRING($divided, "F1") } {
+    {TOSTRING($divided, "F1")} {
 $places ->
         [0] Вт
         [1] кВт
@@ -26,7 +26,7 @@ $places ->
 # Reminder: 1 joule = 1 watt for 1 second (multiply watts by seconds to get joules).
 # Therefore 1 kilowatt-hour is equal to 3,600,000 joules (3.6MJ)
 zzzz-fmt-power-joules =
-    { TOSTRING($divided, "F1") } {
+    {TOSTRING($divided, "F1")} {
 $places ->
         [0] Дж
         [1] кДж
@@ -37,7 +37,7 @@ $places ->
     }
 # Used internally by the ENERGYWATTHOURS() function.
 zzzz-fmt-energy-watt-hours =
-    { TOSTRING($divided, "F1") } {
+    {TOSTRING($divided, "F1")} {
 $places ->
         [0] Вт·ч
         [1] кВт·ч
