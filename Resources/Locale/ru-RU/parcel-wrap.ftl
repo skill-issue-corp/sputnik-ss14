@@ -1,7 +1,7 @@
 parcel-wrap-verb-wrap = Завернуть
 parcel-wrap-verb-unwrap = Развернуть
 
-parcel-wrap-popup-parcel-destroyed = Упаковка, содержащая {($contents)}, была уничтожена!
+parcel-wrap-popup-parcel-destroyed = Упаковка, содержащая {$contents}, была уничтожена!
 parcel-wrap-popup-being-wrapped = {CAPITALIZE($user)} пытается завернуть вас в упаковку!
 parcel-wrap-popup-being-wrapped-self = Вы начинаете заворачивать самого себя.
 
