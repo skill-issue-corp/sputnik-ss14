@@ -1,36 +1,39 @@
-alert-level-announcement = Attention! Station alert level is now {$name}! {$announcement}
+alert-level-announcement = Внимание! Уровень угрозы станции теперь {$name}! {$announcement}
 
-alert-level-unknown = Unknown.
-alert-level-unknown-instructions = Unknown.
+alert-level-unknown = Неизвестно.
+alert-level-unknown-instructions = Неизвестно.
 
-alert-level-green = Green
-alert-level-green-announcement = It is now safe to return to your workplaces.
-alert-level-green-instructions = Do your job.
+alert-level-green = Зелёный
+alert-level-green-announcement = Теперь можно безопасно вернуться на свои рабочие места.
+alert-level-green-instructions = Выполняйте свою работу.
 
-alert-level-blue = Blue
-alert-level-blue-announcement = There is a confirmed threat to the station. Security should perform random checks. Crewmembers are advised to be vigilant and report suspicious activity to security.
-alert-level-blue-instructions = Crewmembers are advised to be vigilant and report suspicious activity to security.
+alert-level-blue = Синий
+alert-level-blue-announcement = На станции подтверждена угроза. Служба безопасности должна проводить случайные проверки. Члены экипажа должны быть бдительными и сообщать о подозрительной деятельности службе безопасности.
+alert-level-blue-instructions = Члены экипажа должны быть бдительными и сообщать о подозрительной деятельности службе безопасности.
 
-alert-level-red = Red
-alert-level-red-announcement = There is an immediate threat to the station. Security should prepare to use lethal force if necessary. Crewmembers should find a safe place to shelter in, and are advised to follow any present authorities.
-alert-level-red-instructions = Crewmembers should find a safe place to shelter in, and are advised to follow any present authorities.
+alert-level-red = Красный
+alert-level-red-announcement = На станцию существует непосредственная угроза. Служба безопасности должна быть готова использовать летальную силу, если это необходимо. Члены экипажа должны найти безопасное место для укрытия и следовать рекомендациям властей.
+alert-level-red-instructions = Члены экипажа должны найти безопасное место для укрытия и следовать рекомендациям властей.
 
-alert-level-violet = Violet
-alert-level-violet-announcement = There is a viral threat on the station. Medical staff are advised to isolate crewmembers with any symptoms. Crewmembers are advised to distance themselves from others and perform safety measures to prevent further spread.
-alert-level-violet-instructions = Crewmembers are advised to distance themselves from others and perform safety measures to prevent further spread.
+alert-level-violet = Фиолетовый
+alert-level-violet-announcement = На станции зафиксирована биологическая угроза. Медицинский персонал должен изолировать членов экипажа с симптомами. Члены экипажа должны держаться на расстоянии от других и принимать меры безопасности, чтобы предотвратить дальнейшее распространение.
+alert-level-violet-instructions = Члены экипажа должны держаться на расстоянии от других и принимать меры безопасности, чтобы предотвратить дальнейшее распространение заражения.
 
-alert-level-yellow = Yellow
-alert-level-yellow-announcement = There is a structural or atmospheric threat within the station. Engineering staff are advised to immediately respond and perform safety measures. Crewmembers are advised to stay away from the threat, and stay in their workplaces if necessary.
-alert-level-yellow-instructions = Crewmembers are advised to stay away from the threat, and stay in their workplaces if necessary.
+alert-level-yellow = Жёлтый
+alert-level-yellow-announcement = На станции существует структурная или атмосферная угроза. Инженерный отдел должен немедленно отреагировать и принять меры безопасности. Члены экипажа должны держаться на расстоянии от угрозы и оставаться на своих рабочих местах, если необходимо.
+alert-level-yellow-instructions = Члены экипажа должны держаться на расстоянии от угрозы и оставаться на своих рабочих местах, если необходимо.
 
-alert-level-gamma = Gamma
-alert-level-gamma-announcement = Central Command has ordered the Gamma security level on the station. Security is to have weapons equipped at all times, and all civilians are to immediately seek their nearest head for transportation to a secure location.
-alert-level-gamma-instructions = All civilians are to immediately seek their nearest head for transportation to a secure location.
+alert-level-gamma = Гамма
+alert-level-gamma-announcement = Центральное Командование объявило уровень угрозы "Гамма" на станции. Служба безопасности должна всегда иметь оружие при себе, а все гражданские лица должны немедленно направиться к главе своего отдела за указаниями для транспортировки в безопасное место.
+# AUTOGEN-Start
+# All civilians are to immediately seek their nearest head for transportation to a secure location.
+# AUTOGEN-End TODO(Check_translation):
+alert-level-gamma-instructions = Все гражданские лица должны немедленно направиться к главе своего отдела за указаниями для транспортировки в безопасное место.
 
-alert-level-delta = Delta
-alert-level-delta-announcement = The station is currently under threat of imminent destruction. Crewmembers are advised to listen to heads of staff for more information.
-alert-level-delta-instructions = Crewmembers are advised to listen to heads of staff for more information.
+alert-level-delta = Дельта
+alert-level-delta-announcement = Станция в настоящее время находится под угрозой неминуемого уничтожения. Члены экипажа должны слушать информацию от глав отделов.
+alert-level-delta-instructions = Члены экипажа должны слушать информацию от глав отделов.
 
-alert-level-epsilon = Epsilon
-alert-level-epsilon-announcement = Central Command has ordered the Epsilon security level on the station. Consider all contracts terminated.
-alert-level-epsilon-instructions = Consider all contracts terminated.
+alert-level-epsilon = Эпсилон
+alert-level-epsilon-announcement = Центральное Командование объявило уровень угрозы "Эпсилон". Все контракты расторгнуты. Спасибо, что выбрали корпорацию Nanotrasen.
+alert-level-epsilon-instructions = Все контракты расторгнуты. Спасибо, что выбрали корпорацию Nanotrasen.
