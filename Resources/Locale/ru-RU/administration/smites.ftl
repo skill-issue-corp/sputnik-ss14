@@ -1,18 +1,19 @@
 admin-smite-chess-self = Вы чувствуете себя необычайно маленьким.
-admin-smite-chess-others = { CAPITALIZE($name) } уменьшается до шахматной доски!
+admin-smite-chess-others = {CAPITALIZE($name)} уменьшается до шахматной доски!
 admin-smite-set-alight-self = Вы загораетесь пламенем!
-admin-smite-set-alight-others = { CAPITALIZE($name) } загорается пламенем!
+admin-smite-set-alight-others = {CAPITALIZE($name)} загорается пламенем!
 admin-smite-remove-blood-self = Вы чувствуете лёгкость и прохладу.
-admin-smite-remove-blood-others = { CAPITALIZE($name) } растекается кровью по всему полу!
+admin-smite-remove-blood-others = {CAPITALIZE($name)} растекается кровью по всему полу!
 admin-smite-vomit-organs-self = Вас тошнит, и вы чувствуете себя опустошённо!
-admin-smite-vomit-organs-others = { CAPITALIZE($name) } изрыгает свои органы!
+admin-smite-vomit-organs-others = {CAPITALIZE($name)} изрыгает свои органы!
 admin-smite-remove-hands-self = У вас отваливаются руки!
-admin-smite-remove-hands-other = У { CAPITALIZE($name) } отваливаются руки!
-admin-smite-turned-ash-other = { CAPITALIZE($name) } превращается в кучку пепла!
+admin-smite-remove-hands-other = У {CAPITALIZE($name)} отваливаются руки!
+admin-smite-turned-ash-other = {CAPITALIZE($name)} превращается в кучку пепла!
 admin-smite-stomach-removal-self = Вы ощущаете пустоту в желудке...
 admin-smite-run-walk-swap-prompt = Для бега вы должны нажать Shift!
 admin-smite-super-speed-prompt = Вы двигаетесь почти со скоростью звука!
 admin-smite-lung-removal-self = Вы не можете вдохнуть!
+admin-smite-silicon-laws-bound-self = Вы внезапно вынуждены следовать строгим законам!
 
 ## Smite names
 
@@ -35,6 +36,7 @@ admin-smite-buffering-name = Буферизация
 admin-smite-become-instrument-name = Сделать инструментом
 admin-smite-remove-gravity-name = Антиграв
 admin-smite-reptilian-species-swap-name = Сделать унатхом
+admin-smite-vulpkanin-species-swap-name = Сделать вульпканином
 admin-smite-locker-stuff-name = Сунуть в шкаф
 admin-smite-headstand-name = Стойка на голове
 admin-smite-become-mouse-name = Сделать мышью
@@ -57,6 +59,11 @@ admin-smite-ghostkick-name = Кик втихаря
 admin-smite-nyanify-name = НЯфикация
 admin-smite-kill-sign-name = Знак смерти
 admin-smite-omni-accent-name = Омни-акцент
+admin-smite-kill-sign-hidden-name = Знак скрытного убийства
+admin-smite-crawler-name = Crawler
+admin-smite-homing-rod-name = Homing Rod
+admin-smite-homing-rod-slow-name = Slowming Rod
+admin-smite-silicon-laws-bound-name = Become Silicon
 
 ## Smite descriptions
 
@@ -109,6 +116,7 @@ admin-smite-hell-teleport-description = Телепортирует объект 
 
 ## Tricks descriptions
 
+admin-trick-unbolt-description = Снимает болты с целевого шлюза.
 admin-trick-bolt-description = Болтирует целевой шлюз.
 admin-trick-emergency-access-on-description = Включает аварийный доступ к целевому шлюзу.
 admin-trick-emergency-access-off-description = Выключает аварийный доступ к целевому шлюзу.

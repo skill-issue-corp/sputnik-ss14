@@ -1,12 +1,6 @@
 ## Strings for the "grant_connect_bypass" command.
 
 cmd-grant_connect_bypass-desc = Временно разрешает пользователю обойти регулярные проверки соединения.
-# AUTOGEN-Start
-# Usage: grant_connect_bypass <user> [duration minutes]
-# Temporarily grants a user the ability to bypass regular connections restrictions.
-# The bypass only applies to this game server and will expire after (by default) 1 hour.
-# They will be able to join regardless of whitelist, panic bunker, or player cap.
-# AUTOGEN-End TODO(Check_translation):
 cmd-grant_connect_bypass-help = Использование: grant_connect_bypass <user> [продолжительность в минутах]
     Временно дает пользователю возможность обойти регулярные ограничения соединения.
     Обход применяется только к этому игровому серверу и истечет после (по умолчанию) 1 часа.
