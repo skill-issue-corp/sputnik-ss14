@@ -60,7 +60,6 @@ admin-smite-nyanify-name = НЯфикация
 admin-smite-kill-sign-name = Знак смерти
 admin-smite-omni-accent-name = Омни-акцент
 admin-smite-kill-sign-hidden-name = Знак скрытного убийства
-admin-smite-crawler-name = Crawler
 admin-smite-homing-rod-name = Homing Rod
 admin-smite-homing-rod-slow-name = Slowming Rod
 admin-smite-silicon-laws-bound-name = Become Silicon
@@ -116,7 +115,6 @@ admin-smite-hell-teleport-description = Телепортирует объект 
 
 ## Tricks descriptions
 
-admin-trick-unbolt-description = Снимает болты с целевого шлюза.
 admin-trick-bolt-description = Болтирует целевой шлюз.
 admin-trick-emergency-access-on-description = Включает аварийный доступ к целевому шлюзу.
 admin-trick-emergency-access-off-description = Выключает аварийный доступ к целевому шлюзу.
