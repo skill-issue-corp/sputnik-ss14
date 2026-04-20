@@ -14,9 +14,6 @@ changeling-devour-consume-complete-self = Наш неестественный р
 changeling-devour-consume-complete-others = {CAPITALIZE(POSS-ADJ($user))} неестественный рот отступает.
 
 changeling-transform-attempt-self = Наши кости ломаются, мышцы рвутся, одна плоть становится другой.
-# AUTOGEN-Start
-# {CAPITALIZE({POSS-ADJ($user)})} bones snap, muscles tear, body shifts into another.
-# AUTOGEN-End TODO(Check_translation):
 changeling-transform-attempt-others = {CAPITALIZE(POSS-ADJ($user))} кости ломаются, мышцы рвутся, тело превращается в другое.
 
 changeling-paused-map-name = Карта хранилища личности Генокрада
