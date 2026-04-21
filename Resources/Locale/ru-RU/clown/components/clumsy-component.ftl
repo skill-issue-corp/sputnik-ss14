@@ -1,10 +1,10 @@
-clumsy-vaulting-fail-forced-message = { CAPITALIZE($bonker) } bonks { $victim }s head against { THE($bonkable) }!
-clumsy-vaulting-fail-message-user = You bonk your head against { THE($bonkable) }!
-clumsy-vaulting-fail-message-others = { $victim } bonks their head against { THE($bonkable) }!
+clumsy-vaulting-fail-forced-message = {CAPITALIZE($bonker)} бьёт головой {$victim} об {$bonkable}!
+clumsy-vaulting-fail-message-user = Вы бьётесь головой об {$bonkable}!
+clumsy-vaulting-fail-message-others = {$victim} бьётся головой об {$bonkable}!
 
-clumsy-gun-fail-message = The gun blows up in your face!
+clumsy-gun-fail-message = Оружие взрывается у вас перед лицом!
 
-clumsy-hypospray-fail-message = Oops! You injected yourself.
+clumsy-hypospray-fail-message = Ой! Вы ввели это в себя.
 
-clumsy-catch-fail-message-user = { CAPITALIZE(THE($item)) } hits your head!
-clumsy-catch-fail-message-others = { CAPITALIZE(THE($item)) } hits { THE($catcher) }'s head!
+clumsy-catch-fail-message-user = {CAPITALIZE($item)} ударяет вас по голове!
+clumsy-catch-fail-message-others = {CAPITALIZE($item)} ударяет {$catcher} по голове!
