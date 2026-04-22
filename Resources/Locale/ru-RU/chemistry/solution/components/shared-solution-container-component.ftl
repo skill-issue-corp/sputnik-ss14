@@ -16,16 +16,6 @@ examinable-solution-on-examine-volume-no-max = Содержимое раство
    *[other] [bold]{-solution-vague-fill-level(fillLevel: $fillLevel)}[/bold].
 }
 
-# AUTOGEN-Start
-# The puddle is {$fillLevel ->
-# [exact] [color=white]$currentu[/color].
-# [full] huge and overflowing!
-# [mostlyfull] huge and overflowing!
-# [halffull] deep and flowing.
-# [halfempty] very deep.
-# *[mostlyempty] pooling together.
-# [empty] forming multiple small pools.
-# AUTOGEN-End TODO(Check_translation):
 examinable-solution-on-examine-volume-puddle =
     Лужа {$fillLevel ->
         [exact] содержит [color=white]{$current}u[/color].

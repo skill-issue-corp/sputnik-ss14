@@ -46,7 +46,7 @@ injector-component-needle-injecting-target = {CAPITALIZE($user)} пытаетс�
 injector-component-needle-drawing-user = Вы начинаете набирать иглой.
 injector-component-needle-drawing-target = {CAPITALIZE($user)} пытается использовать иглу, чтобы набрать из вас!
 injector-component-spray-injecting-user = Вы начинаете подготовку струйного иньектора.
-injector-component-spray-injecting-target = {CAPITALIZE(THE($user))} пытается прижать сопло к вашей коже
+injector-component-spray-injecting-target = {CAPITALIZE($user)} пытается прижать сопло к вашей коже
 
 ## Target Popup Success messages
 injector-component-feel-prick-message = Вы чувствуете легкий укол!
