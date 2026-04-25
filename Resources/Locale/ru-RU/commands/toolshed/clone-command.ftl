@@ -1,10 +1,10 @@
 command-description-clone-humanoidappearance =
-    Clones the humanoid appearance of provided entity to all input entities.
+    Копирует внешность гуманоида указанной сущности всем целевым сущностям.
 command-description-clone-comps =
-    Clones all components from the provided entity to all input entities. Only works for supported components.
+    Копирует все компоненты указанной сущности всем целевым сущностям. Работает только для поддерживаемых компонентов.
 command-description-clone-equipment =
-    Clones the equipment from the provided entity to all input entities. Uses base prototypes, meaning changes to equipment won't persist to the cloned versions.
+    Копирует снаряжение указанной сущности всем целевым сущностям. Используются базовые прототипы, поэтому изменения в экипировке не будут перенесены в клонированные версии.
 command-description-clone-implants =
-    Clones the implants from the provided entity to all input entities. Uses base prototypes, meaning changes to implants won't persist to the cloned versions.
+    Копирует импланты указанной сущности всем целевым сущностям. Используются базовые прототипы, поэтому изменения в имплантах не будут перенесены в клонированные версии.
 command-description-clone-storage =
-    Clones the storage from the provided entity to all input entities. Uses base prototypes, meaning changes to contents won't persist to the cloned versions.
+    Копирует хранилище указанной сущности всем целевым сущностям. Используются базовые прототипы, поэтому изменения в содержимом не будут перенесены в клонированные версии.

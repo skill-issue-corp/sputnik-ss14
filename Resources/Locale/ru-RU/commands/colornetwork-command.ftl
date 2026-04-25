@@ -1,5 +1,5 @@
-cmd-colornetwork-desc = Paints the atmos devices in the specified color
-cmd-colornetwork-help = colornetwork <uid> Pipe <HexColor>
-cmd-colornetwork-no-access = You are not currently able to use mapping commands.
-shell-entity-is-not-node-container = Target entity is not a node container.
-shell-node-group-is-invalid = Invalid node group specified. Valid groups: { $groups }.
+cmd-colornetwork-desc = Раскрашивает устройства атмосферы в указанный цвет
+cmd-colornetwork-help = colornetwork <uid> Труба <цвет в HexColor>
+cmd-colornetwork-no-access = Вы в настоящее время не имеете возможности использовать команды для маппинга.
+shell-entity-is-not-node-container = Целевая сущность не является контейнером узлов.
+shell-node-group-is-invalid = Указанная группа узлов недействительна. Действительные группы: {$groups}

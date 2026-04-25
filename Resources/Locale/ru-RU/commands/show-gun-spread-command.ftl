@@ -1,3 +1,3 @@
-﻿cmd-showgunspread-desc = Shows gun spread overlay for debugging.
-cmd-showgunspreade-help = Usage: showgunspread
-cmd-showgunspread-status = Set spread overlay to {$status}.
+cmd-showgunspread-desc = Показывает оверлей разброса пуль для отладки.
+cmd-showgunspread-help = Использование: showgunspread
+cmd-showgunspread-status = Для оверлея разброса установлен статус {$status}.

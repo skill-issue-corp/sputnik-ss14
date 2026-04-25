@@ -1,15 +1,15 @@
-cmd-substepatmos-desc = Substeps the atmosphere simulation by a single atmostick for the provided grid entity. Implicitly pauses atmospherics simulation.
-cmd-substepatmos-help = Usage: {$command} <EntityUid>
+cmd-substepatmos-desc = Выполняет один шаг симуляции атмосферы (atmostick) на указанном гриде. Принудительно приостанавливает симуляцию.
+cmd-substepatmos-help = Использование: {$command} <EntityUid>
 
-cmd-error-no-grid-provided-or-invalid-grid = You must either provide a grid entity or be standing on a grid to substep.
-cmd-error-couldnt-parse-entity = Entity provided could not be parsed or does not exist. Try standing on a grid you want to substep.
-cmd-error-no-gridatmosphere = Entity provided doesn't have a GridAtmosphereComponent.
-cmd-error-no-gastileoverlay = Entity provided doesn't have a GasTileOverlayComponent.
-cmd-error-no-mapgrid = Entity provided doesn't have a MapGridComponent.
-cmd-error-no-xform = Entity provided doesn't have a TransformComponent?
-cmd-error-no-valid-map = The grid provided is not on a valid map?
+cmd-error-no-grid-provided-or-invalid-grid = Для выполнения шага нужно либо указать сущность грида, либо стоять на нем.
+cmd-error-couldnt-parse-entity = Не удалось распознать указанную сущность, или она не существует. Попробуйте встать на грид, для которого вы хотите выполнить шаг.
+cmd-error-no-gridatmosphere = У указанной сущности отсутствует компонент GridAtmosphereComponent.
+cmd-error-no-gastileoverlay = У указанной сущности отсутствует компонент GasTileOverlayComponent.
+cmd-error-no-mapgrid = У указанной сущности отсутствует компонент MapGridComponent.
+cmd-error-no-xform = У указанной сущности отсутствует TransformComponent?
+cmd-error-no-valid-map = Указанная сетка находится на некорректной карте?
 
-cmd-substepatmos-info-implicitly-paused-simulation = Implicitly paused atmospherics simulation on {$grid}.
-cmd-substepatmos-info-substepped-grid = Substepped atmospherics simulation by one atmostick on {$grid}.
+cmd-substepatmos-info-implicitly-paused-simulation = Симуляция атмосферы на {$grid} принудительно приостановлена.
+cmd-substepatmos-info-substepped-grid = Симуляция атмосферы на {$grid} продвинута на один шаг (atmostick).
 
-cmd-substepatmos-completion-grid-substep = EntityUid of the grid you want to substep. Automatically uses the grid you're standing on if empty.
+cmd-substepatmos-completion-grid-substep = EntityUid грида, для которого нужно выполнить шаг. Если не указано, используется сетка, на которой вы стоите.

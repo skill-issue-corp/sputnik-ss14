@@ -1,2 +1,2 @@
 command-description-polymorph =
-    Polymorphs the input entity with the given prototype.
+    Превращает указанную сущность в заданный прототип.
