@@ -1,3 +1,3 @@
-random-gate-menu-settings = Success Probability (%):
+random-gate-menu-settings = Вероятность успеха (%):
 random-gate-menu-setup = Random Gate Setup
-random-gate-menu-apply = Apply
+random-gate-menu-apply = Применить
