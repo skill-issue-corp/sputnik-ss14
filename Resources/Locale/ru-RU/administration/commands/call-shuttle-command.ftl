@@ -1,4 +1,4 @@
-cmd-callshuttle-desc = Calls the emergency shuttle with an optionally provided arrival time.
-cmd-callshuttle-help = Usage: callshuttle [m:ss]
-cmd-recallshuttle-desc = Recalls the emergency shuttle.
-cmd-recallshuttle-help = Usage: recallshuttle
+cmd-callshuttle-desc = Вызывает аварийный шаттл с возможностью указания времени прибытия.
+cmd-callshuttle-help = Использование: callshuttle [m:ss]
+cmd-recallshuttle-desc = Отзывает аварийный шаттл.
+cmd-recallshuttle-help = Использование: recallshuttle

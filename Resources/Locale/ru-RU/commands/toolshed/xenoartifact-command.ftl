@@ -1,10 +1,10 @@
 command-description-xenoartifact-list =
-    List all EntityUids of spawned artifacts.
+    Выводит список EntityUid всех созданных артефактов.
 command-description-xenoartifact-printMatrix =
-    Prints out matrix that displays all edges between nodes.
+    Выводит матрицу, отображающую все рёбра между узлами.
 command-description-xenoartifact-totalResearch =
-    Gets all research points that can be extracted from artifact currently.
+    Выводит количество очков исследования, которые можно извлечь из артефакта в данный момент.
 command-description-xenoartifact-averageResearch =
-    Calculates amount of research points average generated xeno artifact will output when fully activated.
+    Рассчитывает количество очков исследования, которое в среднем будет выдавать активированный артефакт.
 command-description-xenoartifact-unlockAllNodes =
-    Unlocks all nodes of artifact.
+    Разблокирует все узлы артефакта.

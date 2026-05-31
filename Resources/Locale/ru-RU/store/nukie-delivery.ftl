@@ -1,3 +1,3 @@
-nukie-delivery-medicine-bundle-name = Corpsman Medicine Bundle
-nukie-delivery-medicine-bundle-desc = Contains jugs of basic medicine that are essential for any Nuclear Operation:
-  Bicaridine, Puncturase, Dermaline, Dylovene, Hyronalin, Saline, Dexalin Plus and Tranexamic Acid.
+nukie-delivery-medicine-bundle-name = Набор медикаментов санитара
+nukie-delivery-medicine-bundle-desc = Содержит кувшины с базовыми медикаментами, необходимыми для любой Ядерной Операции:
+  Бикаридин, Пунктураза, Дермалин, Диловен, Хироналин, физраствор, Дексалин Плюс и Транексамовая Кислота.

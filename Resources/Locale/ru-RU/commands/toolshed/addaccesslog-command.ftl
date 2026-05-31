@@ -1,2 +1,2 @@
 command-description-addaccesslog =
-    Adds an access log to this entity. Do note that this bypasses the log's default limit and pause check.
+    Добавляет запись в лог доступа этой сущности. Обратите внимание, что это действие обходит стандартные лимиты и проверку на паузу лога.

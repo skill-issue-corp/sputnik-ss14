@@ -1,64 +1,71 @@
-﻿cmd-whitelistadd-desc = Adds the player with the given username to the server whitelist.
-cmd-whitelistadd-help = Usage: whitelistadd <username or User ID>
-cmd-whitelistadd-existing = {$username} is already on the whitelist!
-cmd-whitelistadd-added = {$username} added to the whitelist
-cmd-whitelistadd-not-found = Unable to find '{$username}'
-cmd-whitelistadd-arg-player = [player]
+cmd-whitelistadd-desc = Добавить игрока в белый список сервера.
+cmd-whitelistadd-help = Использование: whitelistadd <username или User ID>
+cmd-whitelistadd-existing = {$username} уже находится в белом списке!
+cmd-whitelistadd-added = {$username} добавлен в белый список
+cmd-whitelistadd-not-found = Не удалось найти '{$username}'
+cmd-whitelistadd-arg-player = [игрок]
 
-cmd-whitelistremove-desc = Removes the player with the given username from the server whitelist.
-cmd-whitelistremove-help = Usage: whitelistremove <username or User ID>
-cmd-whitelistremove-existing = {$username} is not on the whitelist!
-cmd-whitelistremove-removed = {$username} removed from the whitelist
-cmd-whitelistremove-not-found = Unable to find '{$username}'
-cmd-whitelistremove-arg-player = [player]
+cmd-whitelistremove-desc = Удалить игрока с белого списка сервера.
+cmd-whitelistremove-help = Использование: whitelistremove <username или User ID>
+cmd-whitelistremove-existing = {$username} не находится в белом списке!
+cmd-whitelistremove-removed = {$username} удален из белого списка
+cmd-whitelistremove-not-found = Не удалось найти '{$username}'
+cmd-whitelistremove-arg-player = [игрок]
 
-cmd-kicknonwhitelisted-desc = Kicks all non-whitelisted players from the server.
-cmd-kicknonwhitelisted-help = Usage: kicknonwhitelisted
+cmd-kicknonwhitelisted-desc = Выгнать всех игроков не в белом списке с сервера.
+cmd-kicknonwhitelisted-help = Использование: kicknonwhitelisted
 
-ban-banned-permanent = This ban will only be removed via appeal.
-ban-banned-permanent-appeal = This ban will only be removed via appeal. You can appeal at {$link}
-ban-expires = This ban is for {$duration} minutes and will expire at {$time} UTC.
-ban-banned-1 = You, or another user of this computer or connection, are banned from playing here.
-ban-banned-2 = The ban reason is: "{$reason}"
-ban-banned-3 = Attempts to circumvent this ban such as creating a new account will be logged.
+ban-banned-permanent = Этот бан можно обжаловать только через апелляцию.
+ban-banned-permanent-appeal = Этот бан можно обжаловать только через апелляцию. Для этого посетите {$link}
+ban-expires = Этот бан действует в течение {$duration} минут и истечет в {$time} UTC.
+ban-banned-1 = Вы, или другой пользователь этого компьютера или соединения, заблокированы для игры здесь.
+ban-banned-2 = Причина бана: "{$reason}"
+ban-banned-3 = Попытки обойти этот бан, такие как создание нового аккаунта, будут будут фиксироваться.
 
-soft-player-cap-full = The server is full!
-panic-bunker-account-denied = This server is in panic bunker mode, often enabled as a precaution against raids. New connections by accounts not meeting certain requirements are temporarily not accepted. Try again later
-panic-bunker-account-denied-reason = This server is in panic bunker mode, often enabled as a precaution against raids. New connections by accounts not meeting certain requirements are temporarily not accepted. Try again later. Reason: "{$reason}"
-panic-bunker-account-reason-account = Your Space Station 14 account is too new. It must be older than {$minutes} minutes
-panic-bunker-account-reason-overall = Your overall playtime on the server must be greater than {$minutes} $minutes
+soft-player-cap-full = Сервер полон!
+panic-bunker-account-denied = Этот сервер находится в режиме бункера, часто активируемого как предосторожность против рейдов. Новые подключения от аккаунтов, не соответствующих определенным требованиям, временно не принимаются. Попробуйте позже
+panic-bunker-account-denied-reason = Этот сервер находится в режиме бункера, часто активируемого как предосторожность против рейдов. Новые подключения от аккаунтов, не соответствующих определенным требованиям, временно не принимаются. Попробуйте позже. Причина: "{$reason}"
+panic-bunker-account-reason-account = Ваш аккаунт Space Station 14 слишком новый. Он должен быть старше {$minutes} минут
+panic-bunker-account-reason-overall =
+    Наигранное Вами время на сервере должно быть больше {$minutes} {$minutes ->
+        [one] минуты
+       *[other] минут
+    }.
+whitelist-playtime = У вас недостаточно игрового времени, чтобы присоединиться к этому серверу. Вам нужно иметь как минимум {$minutes} минут игрового времени, чтобы присоединиться к этому серверу.
+whitelist-player-count = Этот сервер в настоящее время не принимает игроков. Пожалуйста, попробуйте позже.
+whitelist-notes = У вас слишком много заметок от администрации, чтобы присоединиться к этому серверу. Вы можете проверить свои заметки, набрав /adminremarks в чате.
+whitelist-manual = Вы не входите в белый список этого сервера.
+whitelist-blacklisted = Вы в чёрном списке этого сервера.
+whitelist-always-deny = Вам запрещено присоединиться к этому серверу.
+whitelist-fail-prefix = Не в белом списке: {$msg}
 
-whitelist-playtime = You do not have enough playtime to join this server. You need at least {$minutes} minutes of playtime to join this server.
-whitelist-player-count = This server is currently not accepting players. Please try again later.
-whitelist-notes = You currently have too many admin notes to join this server. You can check your notes by typing /adminremarks in chat.
-whitelist-manual = You are not whitelisted on this server.
-whitelist-blacklisted = You are blacklisted from this server.
-whitelist-always-deny = You are not allowed to join this server.
-whitelist-fail-prefix = Not whitelisted: {$msg}
+cmd-blacklistadd-desc = Добавить игрока в чёрный список сервера.
+cmd-blacklistadd-help = Использование: blacklistadd <username>
+cmd-blacklistadd-existing = {$username} уже находится в черном списке!
+cmd-blacklistadd-added = {$username} добавлен в черный список
+cmd-blacklistadd-not-found = Не удалось найти '{$username}'
+cmd-blacklistadd-arg-player = [игрок]
 
-cmd-blacklistadd-desc = Adds the player with the given username to the server blacklist.
-cmd-blacklistadd-help = Usage: blacklistadd <username>
-cmd-blacklistadd-existing = {$username} is already on the blacklist!
-cmd-blacklistadd-added = {$username} added to the blacklist
-cmd-blacklistadd-not-found = Unable to find '{$username}'
-cmd-blacklistadd-arg-player = [player]
+cmd-blacklistremove-desc = Удаляет игрока из черного списка сервера.
+cmd-blacklistremove-help = Использование: blacklistremove <username>
+cmd-blacklistremove-existing = {$username} не находится в черном списке!
+cmd-blacklistremove-removed = {$username} удален из черного списка
+cmd-blacklistremove-not-found = Не удалось найти '{$username}'
+cmd-blacklistremove-arg-player = [игрок]
 
-cmd-blacklistremove-desc = Removes the player with the given username from the server blacklist.
-cmd-blacklistremove-help = Usage: blacklistremove <username>
-cmd-blacklistremove-existing = {$username} is not on the blacklist!
-cmd-blacklistremove-removed = {$username} removed from the blacklist
-cmd-blacklistremove-not-found = Unable to find '{$username}'
-cmd-blacklistremove-arg-player = [player]
+baby-jail-account-denied = Этот сервер является сервером для новичков, предназначенным для новых игроков и тех, кто хочет помочь им. Новые подключения от аккаунтов, которые слишком стары или не находятся в белом списке, не принимаются. Посмотрите на другие серверы и посмотрите все, что может предложить Space Station 14. Удачи!
+baby-jail-account-denied-reason = Этот сервер является сервером для новичков, предназначенным для новых игроков и тех, кто хочет помочь им. Новые подключения от аккаунтов, которые слишком стары или не находятся в белом списке, не принимаются. Посмотрите на другие серверы и посмотрите все, что может предложить Space Station 14. Удачи! Причина: "{$reason}"
+baby-jail-account-reason-account = Ваш аккаунт Space Station 14 слишком стар. Он должен быть моложе {$minutes} минут
+baby-jail-account-reason-overall =
+    Наигранное Вами время на сервере должно быть больше {$minutes} {$minutes ->
+        [one] минуты
+       *[other] минут
+    }.
 
-baby-jail-account-denied = This server is a newbie server, intended for new players and those who want to help them. New connections by accounts that are too old or are not on a whitelist are not accepted. Check out some other servers and see everything Space Station 14 has to offer. Have fun!
-baby-jail-account-denied-reason = This server is a newbie server, intended for new players and those who want to help them. New connections by accounts that are too old or are not on a whitelist are not accepted. Check out some other servers and see everything Space Station 14 has to offer. Have fun! Reason: "{$reason}"
-baby-jail-account-reason-account = Your Space Station 14 account is too old. It must be younger than {$minutes} minutes
-baby-jail-account-reason-overall = Your overall playtime on the server must be younger than {$minutes} $minutes
+generic-misconfigured = Сервер настроен неправильно и не принимает игроков. Пожалуйста, свяжитесь с владельцем сервера и попробуйте позже.
 
-generic-misconfigured = The server is misconfigured and is not accepting players. Please contact the server owner and try again later.
+ipintel-server-ratelimited = Этот сервер использует систему аудита с внешней проверкой, но сервер достиг лимита проверки с внешней службой. Пожалуйста, свяжитесь с командой администраторов сервера, чтобы сообщить об этом и получить дальнейшую помощь, или попробуйте позже.
+ipintel-unknown = Этот сервер использует систему аудита с внешней проверкой, но возникла ошибка при проверке вашего соединения. Пожалуйста, свяжитесь с командой администраторов сервера, чтобы сообщить об этом и получить дальнейшую помощь, или попробуйте позже.
+ipintel-suspicious = Вы, кажется, пытаетесь соединиться с помощью центра обработки данных, прокси, VPN или подозрительного соединения. По административным причинам мы не разрешаем такие соединения для игры. Если у вас включен VPN или подобная служба, пожалуйста, выключите ее и попробуйте соединиться снова или свяжитесь с командой администраторов сервера для получения помощи о том, как продолжить, если вы считаете, что это ошибочно или необходимо использовать такие службы для игры.
 
-ipintel-server-ratelimited = This server uses an auditing system with external verification, but the server has reached its maximum verification limit with the external service. Please contact the administration team of the server to inform them and for further assistance, or try again later.
-ipintel-unknown = This server uses an auditing system with external verification, but an error was encountered while verifying your connection. Please contact the administration team of the server to inform them and for further assistance, or try again later.
-ipintel-suspicious = You seem to be attempting to connect using a datacenter, proxy, VPN or otherwise suspicious connection. For administrative reasons, we do not allow these connections to play. If you have a VPN or similar enabled, please turn it off and attempt to reconnect or contact the administration team of the server for assistance on how to continue if you believe this is false or require using these services to play.
-
-hwid-required = Your client has refused to send a hardware id. Please contact the administration team for further assistance.
+hwid-required = Ваш клиент отказался отправить идентификатор оборудования. Пожалуйста, свяжитесь с командой администраторов для получения дальнейшей помощи.

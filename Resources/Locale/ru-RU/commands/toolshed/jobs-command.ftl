@@ -1,12 +1,12 @@
 command-description-jobs-jobs =
-    Returns all jobs on a station.
+    Выводит все должности на станции.
 command-description-jobs-job =
-    Returns a given job on a station.
+    Выводит информацию об указанной должности на станции.
 command-description-jobs-isinfinite =
-    Returns true if the input job is infinite, otherwise false.
+    Возвращает true, если входная должность неограничена, иначе false.
 command-description-jobs-adjust =
-    Adjusts the number of slots for the given job.
+    Изменяет количество доступных мест для указанной должности.
 command-description-jobs-set =
-    Sets the number of slots for the given job.
+    Устанавливает количество слотов для заданной должности.
 command-description-jobs-amount =
-    Returns the number of slots for the given job.
+    Выводит количество мест для указанной должности.

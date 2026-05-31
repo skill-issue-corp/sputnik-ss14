@@ -1,3 +1,3 @@
-﻿cmd-griddrag-desc = Allows someone with permissions to drag grids around.
-cmd-griddrag-help = Usage: griddrag
-cmd-griddrag-status = Grid dragging set to {$status}.
+cmd-griddrag-desc = Позволяет пользователям с правами доступа перемещать гриды.
+cmd-griddrag-help = Применение: griddrag
+cmd-griddrag-status = Перетаскивание сетки установлено в {$status}.

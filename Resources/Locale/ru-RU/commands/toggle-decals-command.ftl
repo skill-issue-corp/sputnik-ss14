@@ -1,2 +1,2 @@
-﻿cmd-toggledecals-desc = Toggles decal overlay.
-cmd-toggledecals-help = Usage: toggledecals
+cmd-toggledecals-desc = Выключает оверлей декалей.
+cmd-toggledecals-help = Использование: toggledecals

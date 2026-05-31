@@ -1,94 +1,94 @@
 entity-condition-guidebook-total-damage =
     { $max ->
-        [2147483648] it has at least {NATURALFIXED($min, 2)} total damage
-        *[other] { $min ->
-                    [0] it has at most {NATURALFIXED($max, 2)} total damage
-                    *[other] it has between {NATURALFIXED($min, 2)} and {NATURALFIXED($max, 2)} total damage
+        [2147483648] имеет как минимум {NATURALFIXED($min, 2)} общего урона
+         *[other] { $min ->
+                    [0] имеет не более {NATURALFIXED($max, 2)} общего урона
+                     *[other] имеет между {NATURALFIXED($min, 2)} и {NATURALFIXED($max, 2)} общего урона
                  }
     }
 
 entity-condition-guidebook-type-damage =
     { $max ->
-        [2147483648] it has at least {NATURALFIXED($min, 2)} of {$type} damage
-        *[other] { $min ->
-                    [0] it has at most {NATURALFIXED($max, 2)} of {$type} damage
-                    *[other] it has between {NATURALFIXED($min, 2)} and {NATURALFIXED($max, 2)} of {$type} damage
+        [2147483648] имеет как минимум {NATURALFIXED($min, 2)} урона типа {$type}
+         *[other] { $min ->
+                    [0] имеет не более {NATURALFIXED($max, 2)} урона типа {$type}
+                     *[other] имеет между {NATURALFIXED($min, 2)} и {NATURALFIXED($max, 2)} урона типа {$type}
                  }
     }
 
 entity-condition-guidebook-group-damage =
     { $max ->
-        [2147483648] it has at least {NATURALFIXED($min, 2)} of {$type} damage.
-        *[other] { $min ->
-                    [0] it has at most {NATURALFIXED($max, 2)} of {$type} damage.
-                    *[other] it has between {NATURALFIXED($min, 2)} and {NATURALFIXED($max, 2)} of {$type} damage
+        [2147483648] имеет как минимум {NATURALFIXED($min, 2)} урона типа {$type}.
+         *[other] { $min ->
+                    [0] имеет не более {NATURALFIXED($max, 2)} урона типа {$type}.
+                     *[other] имеет между {NATURALFIXED($min, 2)} и {NATURALFIXED($max, 2)} урона типа {$type}
                  }
     }
 
 entity-condition-guidebook-total-hunger =
     { $max ->
-        [2147483648] the target has at least {NATURALFIXED($min, 2)} total hunger
-        *[other] { $min ->
-                    [0] the target has at most {NATURALFIXED($max, 2)} total hunger
-                    *[other] the target has between {NATURALFIXED($min, 2)} and {NATURALFIXED($max, 2)} total hunger
+        [2147483648] цель имеет как минимум {NATURALFIXED($min, 2)} общий голод
+         *[other] { $min ->
+                    [0] цель имеет не более {NATURALFIXED($max, 2)} общего голода
+                     *[other] цель имеет между {NATURALFIXED($min, 2)} и {NATURALFIXED($max, 2)} общего голода
                  }
     }
 
 entity-condition-guidebook-reagent-threshold =
     { $max ->
-        [2147483648] there's at least {NATURALFIXED($min, 2)}u of {$reagent}
-        *[other] { $min ->
-                    [0] there's at most {NATURALFIXED($max, 2)}u of {$reagent}
-                    *[other] there's between {NATURALFIXED($min, 2)}u and {NATURALFIXED($max, 2)}u of {$reagent}
+        [2147483648] есть как минимум {NATURALFIXED($min, 2)}u {$reagent}
+         *[other] { $min ->
+                    [0] есть не более {NATURALFIXED($max, 2)}u {$reagent}
+                     *[other] есть между {NATURALFIXED($min, 2)}u и {NATURALFIXED($max, 2)}u {$reagent}
                  }
     }
 
 entity-condition-guidebook-mob-state-condition =
-    the mob is { $state }
+    моб находится в состоянии { $state }
 
 entity-condition-guidebook-job-condition =
-    the target's job is { $job }
+    работа цели - { $job }
 
 entity-condition-guidebook-solution-temperature =
-    the solution's temperature is { $max ->
-            [2147483648] at least {NATURALFIXED($min, 2)}k
-            *[other] { $min ->
-                        [0] at most {NATURALFIXED($max, 2)}k
-                        *[other] between {NATURALFIXED($min, 2)}k and {NATURALFIXED($max, 2)}k
+    температура раствора составляет { $max ->
+            [2147483648] как минимум {NATURALFIXED($min, 2)}k
+             *[other] { $min ->
+                        [0] не более {NATURALFIXED($max, 2)}k
+                         *[other] между {NATURALFIXED($min, 2)}k и {NATURALFIXED($max, 2)}k
                      }
     }
 
 entity-condition-guidebook-body-temperature =
-    the body's temperature is { $max ->
-            [2147483648] at least {NATURALFIXED($min, 2)}k
-            *[other] { $min ->
-                        [0] at most {NATURALFIXED($max, 2)}k
-                        *[other] between {NATURALFIXED($min, 2)}k and {NATURALFIXED($max, 2)}k
+    температура тела составляет { $max ->
+            [2147483648] как минимум {NATURALFIXED($min, 2)}k
+             *[other] { $min ->
+                        [0] не более {NATURALFIXED($max, 2)}k
+                         *[other] между {NATURALFIXED($min, 2)}k и {NATURALFIXED($max, 2)}k
                      }
     }
 
 entity-condition-guidebook-organ-type =
-    the metabolizing organ { $shouldhave ->
-                                [true] is
-                                *[false] is not
-                           } {INDEFINITE($name)} {$name} organ
+    орган метаболизма { $shouldhave ->
+                                [true] является
+                                *[false] не является
+                           } {$name} органом
 
 entity-condition-guidebook-has-tag =
-    the target { $invert ->
-                 [true] does not have
-                 *[false] has
-                } the tag {$tag}
+    цель { $invert ->
+                 [true] не имеет
+                 *[false] имеет
+                } тега {$tag}
 
-entity-condition-guidebook-this-reagent = this reagent
+entity-condition-guidebook-this-reagent = этот реагент
 
 entity-condition-guidebook-breathing =
-    the metabolizer is { $isBreathing ->
-                [true] breathing normally
-                *[false] suffocating
+    метаболизатор { $isBreathing ->
+                [true] дышит нормально
+                *[false] задыхается
                }
 
 entity-condition-guidebook-internals =
-    the metabolizer is { $usingInternals ->
-                [true] using internals
-                *[false] breathing atmospheric air
+    метаболизатор { $usingInternals ->
+                [true] использует внутренние системы
+                *[false] дышит воздухом атмосферы
                }
