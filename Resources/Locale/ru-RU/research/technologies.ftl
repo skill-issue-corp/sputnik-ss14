@@ -39,7 +39,7 @@ research-technology-kinetic-modifications = Кинетические модиф�
 research-technology-basic-shuttle-armament = Базовое корабельное вооружение
 research-technology-advanced-shuttle-weapon = Продвинутое корабельное оружие
 research-technology-thermal-weaponry = Термальное вооружение
-research-technology-dual-wielding-technology = Dual Wielding Technology
+research-technology-dual-wielding-technology = Технология двойного оперирования
 
 research-technology-basic-robotics = Основы робототехники
 research-technology-basic-anomalous-research = Основы исследования аномалий
